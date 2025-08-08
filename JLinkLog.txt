@@ -1,0 +1,255 @@
+T14F00 000:248.249   SEGGER J-Link V7.70d Log File
+T14F00 000:248.479   DLL Compiled: Aug 30 2022 17:10:48
+T14F00 000:248.500   Logging started @ 2025-04-25 12:24
+T14F00 000:248.520 - 248.530ms
+T14F00 000:248.545 JLINK_SetWarnOutHandler(...)
+T14F00 000:248.566 - 0.031ms
+T14F00 000:248.589 JLINK_OpenEx(...)
+T14F00 000:253.063   Firmware: J-Link V9 compiled May  7 2021 16:26:12
+T14F00 000:253.427   Firmware: J-Link V9 compiled May  7 2021 16:26:12
+T14F00 000:253.565   Decompressing FW timestamp took 83 us
+T14F00 000:260.036   Hardware: V9.40
+T14F00 000:260.078   S/N: 69402543
+T14F00 000:260.108   OEM: SEGGER
+T14F00 000:260.138   Feature(s): RDI, GDB, FlashDL, FlashBP, JFlash
+T14F00 000:261.232   TELNET listener socket opened on port 19021
+T14F00 000:261.497   WEBSRV WEBSRV_Init(): Starting webserver thread(s)
+T14F00 000:261.593   WEBSRV Failed to put socket into listener state (port 19080)
+T14F00 000:261.728   WEBSRV Webserver running on local port 19081
+T14F00 000:274.522 - 25.955ms returns "O.K."
+T14F00 000:274.571 JLINK_GetEmuCaps()
+T14F00 000:274.592 - 0.031ms returns 0xB9FF7BBF
+T14F00 000:274.619 JLINK_TIF_GetAvailable(...)
+T14F00 000:274.770 - 0.169ms
+T14F00 000:274.811 JLINK_SetErrorOutHandler(...)
+T14F00 000:274.831 - 0.030ms
+T14F00 000:274.869 JLINK_ExecCommand("ProjectFile = "F:\code\Code_WorkSpace\temp\GD32_Xifeng\MDK-ARM\JLinkSettings.ini"", ...). 
+T14F00 000:288.432   XML file found at: C:\Users\Ahypnis\AppData\Roaming\SEGGER\JLinkDevices\whxy.xml
+T14F00 000:288.612   C:\Users\Ahypnis\AppData\Roaming\SEGGER\JLinkDevices\whxy.xml evaluated successfully.
+T14F00 000:288.638     Device entry created:  CW32F030x6
+T14F00 000:288.661       ChipInfo:
+T14F00 000:288.691         Vendor:          WHXY
+T14F00 000:288.722         Name:            CW32F030x6
+T14F00 000:288.753         WorkRAMAddr:     0x20000000
+T14F00 000:288.783         WorkRAMSize:     0x00001800
+T14F00 000:288.820         Core:            JLINK_CORE_CORTEX_M0
+T14F00 000:288.851       FlashBankInfo:
+T14F00 000:288.881         Name:            Flash Block 
+T14F00 000:289.145         AlwaysPresent:   1
+T14F00 000:289.178         LoaderInfo:
+T14F00 000:289.209           Name:            Flash Block 
+T14F00 000:289.239           MaxSize:         0x00008000
+T14F00 000:289.270           Loader:          C:\Users\Ahypnis\AppData\Roaming\SEGGER\JLinkDevices\Devices\WHXY\CW32F030\FlashCW32F030.FLM
+T14F00 000:289.301           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T14F00 000:289.343     Device entry created:  CW32F030x8
+T14F00 000:289.364       ChipInfo:
+T14F00 000:289.394         Vendor:          WHXY
+T14F00 000:289.424         Name:            CW32F030x8
+T14F00 000:289.455         WorkRAMAddr:     0x20000000
+T14F00 000:289.486         WorkRAMSize:     0x00002000
+T14F00 000:289.516         Core:            JLINK_CORE_CORTEX_M0
+T14F00 000:289.547       FlashBankInfo:
+T14F00 000:289.578         Name:            Flash Block 
+T14F00 000:289.795         AlwaysPresent:   1
+T14F00 000:289.828         LoaderInfo:
+T14F00 000:289.858           Name:            Flash Block 
+T14F00 000:289.888           MaxSize:         0x00010000
+T14F00 000:289.919           Loader:          C:\Users\Ahypnis\AppData\Roaming\SEGGER\JLinkDevices\Devices\WHXY\CW32F030\FlashCW32F030.FLM
+T14F00 000:289.950           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T14F00 000:289.983     Device entry created:  CW32F003x4
+T14F00 000:290.004       ChipInfo:
+T14F00 000:290.034         Vendor:          WHXY
+T14F00 000:290.065         Name:            CW32F003x4
+T14F00 000:290.095         WorkRAMAddr:     0x20000000
+T14F00 000:290.126         WorkRAMSize:     0x00000C00
+T14F00 000:290.156         Core:            JLINK_CORE_CORTEX_M0
+T14F00 000:290.187       FlashBankInfo:
+T14F00 000:290.217         Name:            Flash Block 
+T14F00 000:290.439         AlwaysPresent:   1
+T14F00 000:290.471         LoaderInfo:
+T14F00 000:290.502           Name:            Flash Block 
+T14F00 000:290.532           MaxSize:         0x00005000
+T14F00 000:290.599           Loader:          C:\Users\Ahypnis\AppData\Roaming\SEGGER\JLinkDevices\Devices\WHXY\CW32F003\FlashCW32F003.FLM
+T14F00 000:290.656           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T14F00 000:290.693     Device entry created:  CW32L083xB
+T14F00 000:290.713       ChipInfo:
+T14F00 000:290.744         Vendor:          WHXY
+T14F00 000:290.774         Name:            CW32L083xB
+T14F00 000:290.805         WorkRAMAddr:     0x20000000
+T14F00 000:290.836         WorkRAMSize:     0x00006000
+T14F00 000:290.870         Core:            JLINK_CORE_CORTEX_M0
+T14F00 000:290.900       FlashBankInfo:
+T14F00 000:290.929         Name:            Flash Block 
+T14F00 000:291.135         AlwaysPresent:   1
+T14F00 000:291.168         LoaderInfo:
+T14F00 000:291.198           Name:            Flash Block 
+T14F00 000:291.228           MaxSize:         0x00020000
+T14F00 000:291.258           Loader:          C:\Users\Ahypnis\AppData\Roaming\SEGGER\JLinkDevices\Devices\WHXY\CW32L083\FlashCW32L083.FLM
+T14F00 000:291.288           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T14F00 000:291.321     Device entry created:  CW32L083xC
+T14F00 000:291.341       ChipInfo:
+T14F00 000:291.371         Vendor:          WHXY
+T14F00 000:291.401         Name:            CW32L083xC
+T14F00 000:291.431         WorkRAMAddr:     0x20000000
+T14F00 000:291.461         WorkRAMSize:     0x00006000
+T14F00 000:291.492         Core:            JLINK_CORE_CORTEX_M0
+T14F00 000:291.522       FlashBankInfo:
+T14F00 000:291.552         Name:            Flash Block 
+T14F00 000:291.788         AlwaysPresent:   1
+T14F00 000:291.823         LoaderInfo:
+T14F00 000:291.854           Name:            Flash Block 
+T14F00 000:291.884           MaxSize:         0x00040000
+T14F00 000:291.914           Loader:          C:\Users\Ahypnis\AppData\Roaming\SEGGER\JLinkDevices\Devices\WHXY\CW32L083\FlashCW32L083.FLM
+T14F00 000:291.944           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T14F00 000:291.977     Device entry created:  CW32L031x8
+T14F00 000:291.997       ChipInfo:
+T14F00 000:292.027         Vendor:          WHXY
+T14F00 000:292.057         Name:            CW32L031x8
+T14F00 000:292.087         WorkRAMAddr:     0x20000000
+T14F00 000:292.117         WorkRAMSize:     0x00002000
+T14F00 000:292.147         Core:            JLINK_CORE_CORTEX_M0
+T14F00 000:292.177       FlashBankInfo:
+T14F00 000:292.206         Name:            Flash Block 
+T14F00 000:292.375         AlwaysPresent:   1
+T14F00 000:292.406         LoaderInfo:
+T14F00 000:292.436           Name:            Flash Block 
+T14F00 000:292.466           MaxSize:         0x00010000
+T14F00 000:292.496           Loader:          C:\Users\Ahypnis\AppData\Roaming\SEGGER\JLinkDevices\Devices\WHXY\CW32L031\FlashCW32L031.FLM
+T14F00 000:292.526           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T14F00 000:292.562     Device entry created:  CW32L052x8
+T14F00 000:292.582       ChipInfo:
+T14F00 000:292.612         Vendor:          WHXY
+T14F00 000:292.642         Name:            CW32L052x8
+T14F00 000:292.672         WorkRAMAddr:     0x20000000
+T14F00 000:292.702         WorkRAMSize:     0x00002000
+T14F00 000:292.732         Core:            JLINK_CORE_CORTEX_M0
+T14F00 000:292.762       FlashBankInfo:
+T14F00 000:292.791         Name:            Flash Block 
+T14F00 000:293.027         AlwaysPresent:   1
+T14F00 000:293.060         LoaderInfo:
+T14F00 000:293.091           Name:            Flash Block 
+T14F00 000:293.121           MaxSize:         0x00010000
+T14F00 000:293.151           Loader:          C:\Users\Ahypnis\AppData\Roaming\SEGGER\JLinkDevices\Devices\WHXY\CW32L052\FlashCW32L052.FLM
+T14F00 000:293.180           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T14F00 000:293.213     Device entry created:  CW32F020x6
+T14F00 000:293.233       ChipInfo:
+T14F00 000:293.262         Vendor:          WHXY
+T14F00 000:293.292         Name:            CW32F020x6
+T14F00 000:293.322         WorkRAMAddr:     0x20000000
+T14F00 000:293.352         WorkRAMSize:     0x00002000
+T14F00 000:293.381         Core:            JLINK_CORE_CORTEX_M0
+T14F00 000:293.414       FlashBankInfo:
+T14F00 000:293.444         Name:            Flash Block 
+T14F00 000:293.705         AlwaysPresent:   1
+T14F00 000:293.737         LoaderInfo:
+T14F00 000:293.767           Name:            Flash Block 
+T14F00 000:293.796           MaxSize:         0x00008000
+T14F00 000:293.826           Loader:          C:\Users\Ahypnis\AppData\Roaming\SEGGER\JLinkDevices\Devices\WHXY\CW32F020\FlashCW32F020.FLM
+T14F00 000:293.856           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T14F00 000:293.896     Device entry created:  CW32F002x3
+T14F00 000:293.917       ChipInfo:
+T14F00 000:293.947         Vendor:          WHXY
+T14F00 000:293.977         Name:            CW32F002x3
+T14F00 000:294.007         WorkRAMAddr:     0x20000000
+T14F00 000:294.037         WorkRAMSize:     0x00000800
+T14F00 000:294.067         Core:            JLINK_CORE_CORTEX_M0
+T14F00 000:294.098       FlashBankInfo:
+T14F00 000:294.128         Name:            Flash Block 
+T14F00 000:294.397         AlwaysPresent:   1
+T14F00 000:294.428         LoaderInfo:
+T14F00 000:294.458           Name:            Flash Block 
+T14F00 000:294.488           MaxSize:         0x00004000
+T14F00 000:294.519           Loader:          C:\Users\Ahypnis\AppData\Roaming\SEGGER\JLinkDevices\Devices\WHXY\CW32F002\FlashCW32F002.FLM
+T14F00 000:294.549           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T14F00 000:294.584     Device entry created:  CW32R031x8
+T14F00 000:294.605       ChipInfo:
+T14F00 000:294.634         Vendor:          WHXY
+T14F00 000:294.664         Name:            CW32R031x8
+T14F00 000:294.695         WorkRAMAddr:     0x20000000
+T14F00 000:294.725         WorkRAMSize:     0x00002000
+T14F00 000:294.755         Core:            JLINK_CORE_CORTEX_M0
+T14F00 000:294.785       FlashBankInfo:
+T14F00 000:294.815         Name:            Flash Block 
+T14F00 000:295.042         AlwaysPresent:   1
+T14F00 000:295.074         LoaderInfo:
+T14F00 000:295.105           Name:            Flash Block 
+T14F00 000:295.134           MaxSize:         0x00010000
+T14F00 000:295.165           Loader:          C:\Users\Ahypnis\AppData\Roaming\SEGGER\JLinkDevices\Devices\WHXY\CW32R031\FlashCW32R031.FLM
+T14F00 000:295.195           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T14F00 000:295.227     Device entry created:  CW32W031x8
+T14F00 000:295.247       ChipInfo:
+T14F00 000:295.277         Vendor:          WHXY
+T14F00 000:295.307         Name:            CW32W031x8
+T14F00 000:295.337         WorkRAMAddr:     0x20000000
+T14F00 000:295.367         WorkRAMSize:     0x00002000
+T14F00 000:295.397         Core:            JLINK_CORE_CORTEX_M0
+T14F00 000:295.427       FlashBankInfo:
+T14F00 000:295.457         Name:            Flash Block 
+T14F00 000:295.735         AlwaysPresent:   1
+T14F00 000:295.767         LoaderInfo:
+T14F00 000:295.797           Name:            Flash Block 
+T14F00 000:295.827           MaxSize:         0x00010000
+T14F00 000:295.861           Loader:          C:\Users\Ahypnis\AppData\Roaming\SEGGER\JLinkDevices\Devices\WHXY\CW32W031\FlashCW32W031.FLM
+T14F00 000:295.891           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T14F00 000:295.924     Device entry created:  CW32L010
+T14F00 000:295.944       ChipInfo:
+T14F00 000:295.973         Vendor:          WHXY
+T14F00 000:296.003         Name:            CW32L010
+T14F00 000:296.033         Core:            JLINK_CORE_CORTEX_M0
+T14F00 000:296.064         WorkRAMAddr:     0x20000000
+T14F00 000:296.094         WorkRAMSize:     0x00001000
+T14F00 000:296.123       FlashBankInfo:
+T14F00 000:296.153         Name:            Internal Flash
+T14F00 000:296.402         AlwaysPresent:   1
+T14F00 000:296.433         LoaderInfo:
+T14F00 000:296.463           Name:            Internal Flash
+T14F00 000:296.493           MaxSize:         0x00010000
+T14F00 000:296.523           Loader:          C:\Users\Ahypnis\AppData\Roaming\SEGGER\JLinkDevices\Devices\WHXY\CW32L010\FlashCW32L010.FLM
+T14F00 000:296.553           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T14F00 000:296.842   Ref file found at: D:\Keil\ARM\Segger\JLinkDevices.ref
+T14F00 000:297.089   REF file references invalid XML file: D:\Jlink\JLinkDevices.xml
+T14F00 000:297.441 - 22.585ms returns 0x00
+T14F00 000:297.476 JLINK_ExecCommand("Device = GD32F470VE", ...). 
+T14F00 000:297.690   Device "GD32F470VE" selected.
+T14F00 000:298.157 - 0.670ms returns 0x00
+T14F00 000:298.183 JLINK_ExecCommand("DisableConnectionTimeout", ...). 
+T14F00 000:298.206 - 0.011ms returns 0x01
+T14F00 000:298.228 JLINK_GetHardwareVersion()
+T14F00 000:298.248 - 0.030ms returns 94000
+T14F00 000:298.273 JLINK_GetDLLVersion()
+T14F00 000:298.293 - 0.029ms returns 77004
+T14F00 000:298.314 JLINK_GetOEMString(...)
+T14F00 000:298.335 JLINK_GetFirmwareString(...)
+T14F00 000:298.356 - 0.031ms
+T14F00 000:298.379 JLINK_GetDLLVersion()
+T14F00 000:298.399 - 0.030ms returns 77004
+T14F00 000:298.421 JLINK_GetCompileDateTime()
+T14F00 000:298.441 - 0.029ms
+T14F00 000:298.463 JLINK_GetFirmwareString(...)
+T14F00 000:298.483 - 0.030ms
+T14F00 000:298.505 JLINK_GetHardwareVersion()
+T14F00 000:298.524 - 0.029ms returns 94000
+T14F00 000:298.546 JLINK_GetSN()
+T14F00 000:298.566 - 0.030ms returns 69402543
+T14F00 000:298.588 JLINK_GetOEMString(...)
+T14F00 000:298.611 JLINK_TIF_Select(JLINKARM_TIF_SWD)
+T14F00 000:299.157 - 0.564ms returns 0x00
+T14F00 000:299.189 JLINK_HasError()
+T14F00 000:299.218 JLINK_SetSpeed(5000)
+T14F00 000:299.285 - 0.077ms
+T14F00 000:299.589 JLINK_HasError()
+T14F00 000:299.617 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)
+T14F00 000:299.638 - 0.030ms returns JLINKARM_RESET_TYPE_NORMAL
+T14F00 000:299.660 JLINK_Reset()
+T14F00 000:401.822   Failed to attach to CPU. Trying connect under reset.
+T14F00 001:086.972 - 787.345ms
+T14F00 001:087.037 JLINK_GetId()
+T14F00 001:356.722 - 269.722ms returns 0x00000000
+T14F00 001:356.794 JLINK_GetId()
+T14F00 001:627.486 - 270.725ms returns 0x00000000
+T14F00 001:636.874 JLINK_GetFirmwareString(...)
+T14F00 001:636.912 - 0.047ms
+T14F00 002:096.520 JLINK_Close()
+T14F00 002:100.497 - 4.027ms
+T14F00 002:100.575   
+T14F00 002:100.626   Closed
